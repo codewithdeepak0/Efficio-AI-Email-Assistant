@@ -1,4 +1,4 @@
-const chrono = require('chrono-node');
+const chrono = require("chrono-node");
 
 function parseDateTime(text) {
   const results = chrono.parse(text);
@@ -19,7 +19,9 @@ function parseDateTime(text) {
       const tomorrow = new Date(now);
       tomorrow.setDate(tomorrow.getDate() + 1);
       tomorrow.setHours(startDate.getHours(), startDate.getMinutes(), 0, 0);
-      endDate = new Date(tomorrow.getTime() + (endDate.getTime() - startDate.getTime()));
+      endDate = new Date(
+        tomorrow.getTime() + (endDate.getTime() - startDate.getTime())
+      );
       startDate.setTime(tomorrow.getTime());
     }
 

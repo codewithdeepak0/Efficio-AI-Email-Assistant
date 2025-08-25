@@ -1,7 +1,6 @@
-// this file will not work on local system 
-// this file is meant for twilo functions 
-
-
+/*  This file will not work on local system
+    This file is meant for twilo functions 
+*/
 
 require('dotenv').config();
 
