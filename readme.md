@@ -154,7 +154,4 @@ This project does not have a license.
 
 ---
 
-## Contact
-
-For any queries or support, feel free to open an issue in the [GitHub repository](<repo-url>).
 
